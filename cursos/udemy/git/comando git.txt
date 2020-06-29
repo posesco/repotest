@@ -1,0 +1,23 @@
+Curso GitHub GitLab Udemy 
+
+Identificacion----
+git config --global user.name "Jesus Posada"
+git config --global user.email "<posesco@gmail.com>"
+
+mkdir nombre_proyecto
+git init -- Inicializa el repositorio
+touch file{1..10} -- Creacion de archivos
+git add file1 -- Incluye el archivo al stating area
+git add . -- Incluye todo los archivos al stating area
+rm --cached  -- Quita un archivo del stating area al workin directory sin borrarlos del sistema 
+
+Creacion de Ramas
+
+git branch --- Verifica que rama estoy
+git branch dev --- Crea una rama
+git checkout dev -- Cambia de rama
+git checkout -b lab -- Crea una rama y se posiciona en ella
+git branch -d dev -- Borra una rama
+
+la edicion que se haga en un rama no afecta la otra por defecto
+
